@@ -39,7 +39,6 @@ h1{
     margin:95px;
     transform: translateX(95px);
     z-index: 1;
-    background-color: rgb(0, 0, 0);
 }
 .sert_two{
     position: relative;
@@ -166,20 +165,3 @@ h1{
     transform: translateX(150px);
 }
 
-
-
-
-
-
-/*
-The Complete Cyber Security Course: Hackers
-Exposed
-Nathan House / 02.2023
-The Complete Cyber Security Course: Hackers
-Exposed
-Re-educate / 10.2022
-Cyber Security and Ethical Hacking
-Cyber Security Association / 12.2022
-Ethical hacking of web sites
-Cyber Security Association / 12.2022
-*/
