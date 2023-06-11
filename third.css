@@ -170,5 +170,6 @@ h1{
     display: flex;
     margin-top: -210px;
     transform: translateX(660px);
+    cursor-pointer:none;
 }
 
