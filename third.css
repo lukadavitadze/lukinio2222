@@ -164,4 +164,11 @@ h1{
     margin-top:130px;
     transform: translateX(155px);
 }
+.bolo-one{
+    width:300px;
+    height: 200px;
+    display: flex;
+    margin-top: -210px;
+    transform: translateX(660px);
+}
 
