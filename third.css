@@ -24,153 +24,30 @@
     color: rgb(75, 75, 75);
 }
 h1{
+    display: flex;
     position: relative;
     color:aliceblue;
-    transform: translateY(50px);
-    z-index: 2;
-    margin-left: 90px;
+    margin-left: 70px;
+    margin-top: 100px;
 }
 /*FINISH HEADER*/
 /*START MAIN*/
-.sert{
-    position: relative;
-    width:300px;
-    height: 200px;
-    margin:95px;
-    transform: translateX(95px);
-    z-index: 1;
-}
-.sert_two{
-    position: relative;
-    width:300px;
-    height: 200px;
-    margin:95px;
-    transform: translateX(90px);
-    z-index: 0;
-}
-.sert_third{
-    position: relative;
-    width:300px;
-    height: 200px;
-    margin:95px;
-    transform: translateX(80px);
-    z-index: 0;
-}
-.daalage{
-    display: flex;
-    text-align:center;
-    width: 250px;
-    height: 30px;
-    font-size: 20px;
-    transform: translateX(10px);
-}
-.daalage ul{
+.daalage a{
     display:inline-flex;
-    list-style:none;
-  
-}
-.daalage ul a{
-    position: relative;
-    width:150px;
-    margin:75px;
-    cursor: pointer;
+    justify-content: center;
+    margin: 10px;
     text-decoration: none;
-    color:white;
-    width: 370px;
-    z-index: 1;
-    background-color: darkgray;
-    border-radius: 10px;
-}
-.daalage_two{
-    display: flex;
-    text-align:center;
-    width: 250px;
-    height: 30px;
+    padding:80px;
     font-size: 20px;
-    margin-top: -100px;
+    color:aliceblue;
+    height: 5px;
 }
-.daalage_two ul{
+.foto img{
     display:inline-flex;
-    list-style:none;
-  
-}
-.daalage_two ul a{
-    position: relative;
-    width:150px;
-    margin:80px;
-    cursor: pointer;
-    text-decoration: none;
-    color:white;
-    width: 370px;
-    z-index: 1;
-    background-color: darkgray;
-    border-radius: 10px;
-}
-.daalage_two{
-    display: flex;
-    text-align:center;
-    width: 250px;
-    height: 30px;
-    font-size: 20px;
-    margin-top: -130px;
-    transform: translateX(30px);
-}
-.daalage_two ul{
-    display:inline-flex;
-    list-style:none;
-  
-}
-.daalage_two ul a{
-    position: relative;
-    width:150px;
-    margin:67px;
-    cursor: pointer;
-    text-decoration: none;
-    color:white;
-    width: 370px;
-    z-index: 2;
-    background-color: darkgray;
-    border-radius: 10px;
-}
-.daalage_third{
-    display: flex;
-    position: relative;
-    text-align:center;
-    width: 250px;
-    height: 30px;
-    font-size: 20px;
-    margin-top: -120px;
-    transform: translateX(-530px);
-}
-.daalage_third ul{
-    display:inline-flex;
-    list-style:none;
-  
-}
-.daalage_third ul a{
-    position: relative;
-    margin:70px;
-    cursor: pointer;
-    text-decoration: none;
-    color:white;
-    width: 380px;
-    border-radius: 10px;
-    z-index: 2;
-}
-.bolo{
-    display: flex;
-    width:300px;
+    justify-content: center;
+    margin: 10px;
+    list-style: none;
+    width: 300px;
     height: 200px;
-    margin-top:130px;
-    transform: translateX(155px);
+    padding-left: 100px;
 }
-.bolo-one{
-    width:300px;
-    height: 200px;
-    display: flex;
-    margin-top: -210px;
-    transform: translateX(660px);
-}
-
-
-
