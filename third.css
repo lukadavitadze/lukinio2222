@@ -32,7 +32,7 @@ h1{
 }
 /*FINISH HEADER*/
 /*START MAIN*/
-.daalage a{
+.daalage_one a{
 
     display:inline-flex;
     justify-content: center;
@@ -43,6 +43,29 @@ h1{
     color:aliceblue;
     height: 5px;
 }
+.daalage_two a{
+
+    display:inline-flex;
+    justify-content: center;
+    margin: 15px;
+    text-decoration: none;
+    padding:80px;
+    font-size: 20px;
+    color:aliceblue;
+    height: 5px;
+}
+.daalage_third a{
+
+    display:inline-flex;
+    justify-content: center;
+    margin: 30px;
+    text-decoration: none;
+    padding:90px;
+    font-size: 20px;
+    color:aliceblue;
+    height: 5px;
+}
+
 .foto img{
     display:inline-flex;
     justify-content: center;
@@ -50,5 +73,16 @@ h1{
     list-style: none;
     width: 300px;
     height: 200px;
-    padding-left: 121px;
+    padding-left: 120px;
+}
+.foto_two img{
+    display:inline-flex;
+    justify-content: center;
+    margin: 10px;
+    list-style: none;
+    width: 300px;
+    height: 200px;
+    padding-left: 120px;
+    margin-top: -15px;
+
 }
