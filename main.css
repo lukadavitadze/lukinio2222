@@ -1,0 +1,192 @@
+*{
+    margin:0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+header{
+    display: block;
+    background-color:white;
+    width: 100%;
+    z-index: 0;
+    position: fixed;
+}
+.conteiner{
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+}
+.kvadrati{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(15, 15, 217);
+    margin: 12px 10px 10px 10px;
+}
+.contIncont{
+    display: inline-flex;
+    justify-content: left;
+}
+.pclass{
+    font-size: 20px;
+    margin:10px;
+}
+.contIncontTwo ul{
+    display: inline-flex;
+    list-style:none;
+}
+.contIncontTwo ul li{
+    padding:15px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.contIncontTwo ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.contIncontTwo a:hover{
+    color: rgb(63, 63, 239);
+    transition-duration: 0.5s ;
+}
+/*main*/
+main{
+    display: inline-flex;
+}
+.mainFirst{
+    background-color:rgba(222, 184, 135, 0.749);
+    width: 80vh;
+    height: 105vh;
+}
+.inMain{
+    background-color: rgba(250, 235, 215, 0.905);
+    width: 400px;
+    height: 450px;
+    display: inline-block;
+    margin: 210px 0px 0px 70%;
+    box-shadow: 0px 10px 30px 0px;
+}
+.foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;;
+    margin:20px 100px 0px 100px;
+}
+#one{
+    font-size: 30px;
+    margin:10px 0px 0px 160px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#two{
+    font-size: 30px;
+    margin:10px 0px 15px 120px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ptwo{
+    margin:20px 20px 20px 60px;
+    font-size: 25px;
+}
+.divF{
+    background-color:white;
+    width: 400px;
+    height: 50px;
+    margin-top: 23px;
+}
+.divOne{
+    width: 500px;
+    height: 400px;
+    margin:210px 0px 0px 250px;
+}
+.icone{
+    display: inline-flex;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 40px;
+}
+#hone{
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+h2{
+    margin-bottom: 20px;
+}
+.divOne a{
+    background-color:white;
+    color:black;
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 5px 40px 5px 40px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.mycv:hover{
+    background-color: blue;
+    color: white;
+    transition-duration: 1s ;
+}
+#about:hover{
+    background-color:white;
+    color:black;
+    border:solid blue 1px;
+    transition-duration: 1s ;
+}
+#about{
+    background-color: blue;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.divOne p{
+    margin-top: 20px;
+    width: 350px;
+    font-size: 20px;
+}
+
+
+/*       */
+#bolo{
+    width: auto;
+    height: 100px;
+    background-color: whitesmoke;
+}
+.jm ul li{
+ display: inline-flex;
+ transform: translateY(40px);
+ margin-left: 100px;
+}
+.boloBar{
+    display: flex;
+    justify-content:end;
+    padding:0px 30px 0px 30px;
+}
+.boloBar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.boloBar ul li{
+    display: flex;
+}
+.boloBar li{
+    padding:15px 20px 0px 20px;
+}
+.boloBar ol li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.boloBar ol li a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
