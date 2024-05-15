@@ -1,198 +1,391 @@
-*{
-    margin:0px;
-    padding: 0px;
-    scroll-behavior: smooth;
-}
-header{
-    background-color:white;
-    width: 100%;
-    z-index:9;
-    position: fixed;
-}
-.conteiner{
-    display:flex;
-    justify-content:space-around;
-    padding:20px;
-}
-.kvadrati{
-    width: 15px;
-    height: 15px;
-    background-color: rgb(15, 15, 217);
-    margin: 12px 10px 10px 10px;
-}
-.contIncont{
-    display:flex;
-    justify-content: left;
-}
-.pclass{
-    font-size: 20px;
-    margin:10px;
-}
-.contIncontTwo ul{
-    display: inline-flex;
-    list-style:none;
-}
-.contIncontTwo ul li{
-    padding:15px;
-    cursor: pointer;
-    font-size: 25px;
-}
-.contIncontTwo ul li a{
-    text-decoration: none;
-    color: black;
-}
-
-.contIncontTwo a:hover{
-    color: rgb(63, 63, 239);
-    transition-duration: 0.5s ;
-}
-/*start main*/
-main{
- height:2500px;
- width:auto;
- background-color:rgba(222, 184, 135, 0.749);
-}
-main div{
-    width: 280px;
-    height: 300px;
-}
-.newconteiner{
-    top: -4%;
-    left: 27%;
-    position:relative;
-}
-.gaga{
-    display: block;
-    width: 800px;
-    height: 400px;
-    background-color:whitesmoke;
-    margin: 30px 0px 30px 0px;
-    padding: 20px;
-    cursor: pointer;
-    transition-duration: 1s;
-    overflow: hidden;
-    box-shadow: 0px 20px 50px;
-}
-.gaga:hover{
-    margin-left: 10px;
-    .kvadratiNew{
-        background-color:rgba(35, 36, 31, 0.379);
+@media(min-width:1300px){
+    *{
+        margin:0px;
+        padding: 0px;
+        scroll-behavior: smooth;
     }
-}
-.kvadratiNew{
-    width: 20px;
-    height: 20px;
-    background-color: rgb(15, 15, 217);
-    margin:3px 10px 0px 0px;
-    transform: translateY(5px);
-}
-.newconteiner a{
-    display: flex;
-    margin-left:23px;
-    font-size: 30px;
-    font-family:'Times New Roman', Times, serif;
-}
-.newconteiner h1{
-    top:-20%;
-    left:115%;
-    position: relative;
-}
-.aboutKvad{
-    width: 25px;
-    height: 25px;
-    background-color: rgb(15, 15, 217);
-    top:-10%;
-    left:104%;
-    position: relative;
-}
-.mycv{
-    display: inline-flex;
-    margin-left:400px;
-    list-style: none;
-}
-/*komentarebis wera mezareba*/
-.gaga ul{
-    display: inline-flex;
-    list-style: none;
-}
-.gaga ul li{
-    width: 400px;
-    text-decoration: none;
-    padding:20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 60px;
-    font-size: 16px;
-
-}
-.gagaB{
-    display: block;
-    width: 800px;
-    height: 400px;
-    background-color:whitesmoke;
-    margin: 30px 0px 30px 0px;
-    padding: 20px;
-    cursor: pointer;
-    transition-duration: 1s;
-    box-shadow: 0px 20px 50px;
-}
-.gagaB ul{
-    display:flex;
-    list-style: none;
-}
-.gagaB ul li{
-    width: 200px;
-    text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 30px;
-    font-size: 18px;
-    margin-left: 40px;
-}
-.gagaB:hover{
-    margin-left: 10px;
-}
-.gaga ol{
-    padding:20px;
-    font-size: 20px;
-}
+    header{
+        background-color:white;
+        width: 100%;
+        z-index:9;
+        position: fixed;
+    }
+    .conteiner{
+        display:flex;
+        justify-content:space-around;
+        padding:20px;
+    }
+    .kvadrati{
+        width: 15px;
+        height: 15px;
+        background-color: rgb(15, 15, 217);
+        margin: 12px 10px 10px 10px;
+    }
+    .contIncont{
+        display:flex;
+        justify-content: left;
+    }
+    .pclass{
+        font-size: 20px;
+        margin:10px;
+    }
+    .contIncontTwo ul{
+        display: inline-flex;
+        list-style:none;
+    }
+    .contIncontTwo ul li{
+        padding:15px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    .contIncontTwo ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .contIncontTwo a:hover{
+        color: rgb(63, 63, 239);
+        transition-duration: 0.5s ;
+    }
+    
 
 
+    main{
+        transform: translateY(100px);
+        background-color: rgba(222, 184, 135, 0.749);
+        position: relative;
+        z-index: 0;
+    }
+    .cont{
+        
+        padding: 20px;
+        display: block;
+    }
+    .newconteiner{
+        padding: 20px;
+        display: block;
+        margin-bottom: 70px;
+    }
+    .newconteiner h1{
+        display: flex;
+        justify-content: center;
+    }
+    .kvadratiNew{
+        width: 20px;
+        height: 20px;
+        background-color: rgb(15, 15, 217);
+        margin:7px 10px 0px 0px;
+    }
+    .aboutKvad{
+        width: 25px;
+        height: 25px;
+        background-color: rgb(15, 15, 217);
+        transform: translateY(30px);
+        left:43%;
+        position: relative;
+    }
+    .cont_gaga{
+        
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .gaga{
+        display: block;
+        width: 800px;
+        height: 400px;
+        background-color:whitesmoke;
+        margin: 30px 0px 30px 0px;
+        padding: 20px;
+        cursor: pointer;
+        transition-duration: 1s;
+        box-shadow: 0px 20px 50px;
+    }
+    .gaga ul{
+        list-style: none;
+    }
+    .gaga ul li{
+        text-decoration: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        padding:   15px;
+        text-decoration: none;
+    }
+    .newconteiner a{
+        display: flex;
+        margin-left:23px;
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+        
+    }
+    .gaga:hover{
+        margin-left: 10px;
+        .kvadratiNew{
+            background-color:rgba(35, 36, 31, 0.379);
+        }
+    }
+
+
+    .gagaB{
+        display: block;
+        width: 800px;
+        height: 400px;
+        background-color:whitesmoke;
+        margin: 30px 0px 30px 0px;
+        padding: 20px;
+        cursor: pointer;
+        transition-duration: 1s;
+        box-shadow: 0px 20px 50px;
+    }
+    .gagaB ul{
+        display:flex;
+        list-style: none;
+    }
+    .gagaB ul li{
+        width: 200px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        margin: 30px 0px 30px 40px;
+    }
+    .gagaB:hover{
+        margin-left: 10px;
+    }
+    .gaga ol{
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    #bolo{
+        width: auto;
+        height: 100px;
+        background-color: whitesmoke;
+        position: relative;
+        z-index: 1;
+    }
+    .jm ul li{
+        display: inline-flex;
+        transform: translateY(40px);
+        margin-left: 100px;
+       }
+    .boloBar{
+        display: flex;
+        justify-content:end;
+        padding:0px 30px 0px 30px;
+    }
+    .boloBar ul{
+        display: inline-flex;
+        list-style: none;
+    }
+    .boloBar li{
+        padding:0px 20px 0px 20px;
+    }
+    .boloBar ol li{
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .boloBar ol li a{
+        text-decoration: none;
+        color:black
+    }
+
+    
+}
+
+
+@media(max-width:1299px){
+    
+      *{
+        margin:0px;
+        padding: 0px;
+        scroll-behavior: smooth;
+    }
+    .kvadrati{
+        width: 15px;
+        height: 15px;
+        background-color: rgb(15, 15, 217);
+        margin-left: 90px;
+        transform: translateY(26px);
+    }
+    .contIncont{
+        background-color:white;
+        padding: 10px;
+        width: 100%;
+    }
+    .contIncont h1, p{
+        display: flex;
+        justify-content: center;
+    }
+    .conteiner .contIncontTwo{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0px 20px 0px;
+    }
+    .contIncontTwo ul{
+        display: inline-flex;
+        list-style:none;
+        justify-content: center;
+    }
+    .contIncontTwo ul li{
+        margin: 20px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    .contIncontTwo ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .contIncontTwo a:hover{
+        color: rgb(63, 63, 239);
+        transition-duration: 0.5s ;
+    }
+
+    body{
+        background-color:rgba(222, 184, 135, 0.749);
+    }
 
 
 
+    main{
+        position: relative;
+        z-index: 0;
+    }
+    .cont{
+        
+        padding: 20px;
+        display: block;
+    }
+    .newconteiner{
+        padding: 20px;
+        display: block;
+        margin-bottom: 70px;
+    }
+    .newconteiner h1{
+        display: flex;
+        justify-content: center;
+    }
+    .kvadratiNew{
+        width: 20px;
+        height: 20px;
+        background-color: rgb(15, 15, 217);
+        margin:7px 10px 0px 0px;
+    }
+    .aboutKvad{
+        width: 25px;
+        height: 25px;
+        background-color: rgb(15, 15, 217);
+        transform: translateY(30px);
+        left:30%;
+        position: relative;
+    }
+    .cont_gaga{
+        
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .gaga{
+        display: block;
+        width: 800px;
+        height: 400px;
+        background-color:whitesmoke;
+        margin: 30px 0px 30px 0px;
+        padding: 20px;
+        cursor: pointer;
+        transition-duration: 1s;
+        box-shadow: 0px 20px 50px;
+        overflow: scroll;
+    }
+    .gaga ul{
+        list-style: none;
+    }
+    .gaga ul li{
+        text-decoration: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        padding:   15px;
+        text-decoration: none;
+    }
+    .newconteiner a{
+        display: flex;
+        margin-left:23px;
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+        
+    }
+    .gaga:hover{
+        margin-left: 10px;
+        .kvadratiNew{
+            background-color:rgba(35, 36, 31, 0.379);
+        }
+    }
 
-/*archaxvide*/
-#bolo{
-    width: auto;
-    height: 100px;
-    background-color: whitesmoke;
-}
-.jm ul li{
-    display: inline-flex;
-    transform: translateY(40px);
-    margin-left: 100px;
-   }
-.boloBar{
-    display: flex;
-    justify-content:end;
-    padding:0px 30px 0px 30px;
-}
-.boloBar ul{
-    display: inline-flex;
-    list-style: none;
-}
-.boloBar li{
-    padding:0px 20px 0px 20px;
-}
-.boloBar ol li{
-    display: inline-block;
-    list-style: none;
-    text-decoration: none;
-    font-size: 18px;
-    cursor: pointer;
-}
-.boloBar ol li a{
-    text-decoration: none;
-    color:black
-}
+    .gagaB{
+        display: block;
+        width: 800px;
+        height: 400px;
+        background-color:whitesmoke;
+        margin: 30px 0px 30px 0px;
+        padding: 20px;
+        cursor: pointer;
+        transition-duration: 1s;
+        box-shadow: 0px 20px 50px;
+        overflow: scroll;
 
+    }
+    .gagaB ul{
+        display:flex;
+        list-style: none;
+    }
+    .gagaB ul li{
+        
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        margin: 30px 0px 30px 40px;
+    }
+    .gagaB:hover{
+        margin-left: 10px;
+    }
+    .gaga ol{
+        padding: 20px;
+        font-size: 20px;
+    }
+   
 
+    /* bolo */
+    #bolo{
+        width: auto;
+        height: 100px;
+        background-color: whitesmoke;
+    }
+    .jm ul li{
+        display: flex;
+        justify-content: center;
+    }
+    .boloBar{
+        display: flex;
+        padding: 20px;
+    }
+    .boloBar ul{
+        display: inline-flex;
+        list-style: none;
+    }
+    .boloBar ul li{
+        display: flex;   
+    }
+    .boloBar ol li{
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .boloBar ol li a{
+        text-decoration: none;
+        color:black;
+        transform: translateY(20px);
+    }
+
+}
